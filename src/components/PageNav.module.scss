@@ -1,0 +1,36 @@
+.nav {
+    font-family: "Edu";
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+
+        & li {
+            list-style: none;
+
+            & a {
+                color: white;
+                text-decoration: none;
+            }
+
+            & a.ctaLink:link,
+            & a.ctaLink:visited {
+                background-color: var(--color-brand--2);
+                color: #fff;
+                padding: 0.8rem 2rem;
+                border-radius: 7px;
+            }
+
+            & a:global(.active) {
+                color: var(--color-brand--2);
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+label {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+    font-family: inherit;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-light--3);
+    transition: all 0.2s;
+}
+
+input:focus {
+    outline: none;
+    background-color: #fff;
+}
+
+.cta:link,
+.cta:visited {
+    display: inline-block;
+    background-color: var(--color-brand--2);
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    font-family: "Coiny";
+}

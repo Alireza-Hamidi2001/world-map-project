@@ -1,0 +1,21 @@
+@use './global' as *;
+// ABSTRACTS
+@use "abstracts/functions";
+@use "abstracts/mixins";
+@use "abstracts/variables";
+@use "abstracts/animation";
+
+// BASE 
+@use "base/base";
+@use "base/typography";
+@use "base/utilities";
+
+// COMPONENTS 
+@use "components/input";
+@use "components/icons";
+
+// LAYOUTS 
+@use "layouts/footer";
+// PAGES 
+// THEMES
+// VENDORS
