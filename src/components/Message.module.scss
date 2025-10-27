@@ -1,7 +1,12 @@
+@use './../../sass/abstracts/mixins' as *;
+
 .message {
   text-align: center;
   font-size: 1.8rem;
   width: 80%;
   margin: 2rem auto;
   font-weight: 600;
+  @include flex-center(center, center);
+  flex-direction: column;
+  gap: 5px;
 }

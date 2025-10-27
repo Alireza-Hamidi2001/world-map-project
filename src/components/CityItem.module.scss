@@ -1,9 +1,10 @@
+@use './../../sass/abstracts/mixins' as *;
+
 .cityItem,
 .cityItem:link,
 .cityItem:visited {
-  display: flex;
+  @include flex-center(null, center);
   gap: 1.6rem;
-  align-items: center;
 
   background-color: var(--color-dark--2);
   border-radius: 7px;
@@ -51,4 +52,9 @@
 .deleteBtn:hover {
   background-color: var(--color-brand--1);
   color: var(--color-dark--1);
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }

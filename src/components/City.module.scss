@@ -1,9 +1,11 @@
+@use '../../sass/abstracts/mixins' as *;
+
 .city {
   padding: 2rem 3rem;
   max-height: 70%;
   background-color: var(--color-dark--2);
   border-radius: 7px;
-  overflow: scroll;
+  overflow: auto;
 
   width: 100%;
   display: flex;
@@ -22,6 +24,8 @@
   font-size: 1.1rem;
   font-weight: 900;
   color: var(--color-light--1);
+  @include flex-center(null, center);
+  gap: 4px;
 }
 
 .city h3 {
