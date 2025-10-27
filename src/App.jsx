@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Navigate, Route, Routes } from "react-router-dom";
 
 import AppLayout from "./pages/AppLayout";
 import HomePage from "./pages/HomePage";
@@ -19,7 +19,7 @@ import { CitiesProvider } from "./contexts/CitiesContext";
 function App() {
     return (
         <CitiesProvider>
-            <BrowserRouter>
+            <HashRouter>
                 <Routes>
                     <Route
                         path="/"
@@ -72,7 +72,7 @@ function App() {
                         element={<PageNotFound />}
                     />
                 </Routes>
-            </BrowserRouter>
+            </HashRouter>
         </CitiesProvider>
     );
 }
