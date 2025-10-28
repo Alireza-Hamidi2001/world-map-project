@@ -14,6 +14,10 @@
 
   color: inherit;
   text-decoration: none;
+
+  @include respond(tab-port) {
+    padding: 1rem;
+  }
 }
 
 .cityItem--active {
@@ -34,6 +38,10 @@
 
 .date {
   font-size: 1.5rem;
+
+  @include respond(tab-port) {
+    font-size: 0.5rem;
+  }
 }
 
 .deleteBtn {

@@ -1,6 +1,6 @@
 import PageNav from "../components/PageNav";
 import styles from "./Product.module.scss";
-import image from "./../assets/images/img-1.jpg";
+import image from "./../assets/images/adventure.jpg";
 
 export default function Product() {
     return (

@@ -15,6 +15,7 @@ import CountryList from "./components/CountryList";
 import City from "./components/City";
 import Form from "./components/Form";
 import { CitiesProvider } from "./contexts/CitiesContext";
+import About from "./pages/About";
 
 function App() {
     return (
@@ -62,6 +63,10 @@ function App() {
                     <Route
                         path="product"
                         element={<Product />}
+                    />
+                    <Route
+                        path="about"
+                        element={<About />}
                     />
                     <Route
                         path="login"

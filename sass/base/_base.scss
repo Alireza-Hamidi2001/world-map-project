@@ -11,6 +11,14 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+
+    @include respond(tab-land) {
+        font-size: 50%;
+    }
+
+    @include respond(tab-port) {
+        font-size: 37.5%;
+    }
 }
 
 body {

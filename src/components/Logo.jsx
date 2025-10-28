@@ -1,5 +1,5 @@
 import styles from "./Logo.module.scss";
-import logo from "./../assets/images/logo.png";
+import logo from "./../assets/images/alireza4.png";
 import { NavLink } from "react-router-dom";
 
 function Logo() {

@@ -10,7 +10,7 @@ function Footer() {
                 </i>{" "}
                 base a design of{" "}
                 <i>
-                    <b>Jonas</b>
+                    <b>Jonas Schmedtmann</b>
                 </i>
                 .
             </p>

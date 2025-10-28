@@ -1,8 +1,10 @@
 @import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
 
 :root {
-    --color-brand--1: #ffb545;
-    --color-brand--2: #00c46a;
+    --color-brand--1: #e9ce21;
+    --color-brand--2: #2d86aa;
+    --color-brand--3: #339fca;
+    --color-brand--hover: #227291;
 
     --color-dark--0: #242a2e;
     --color-dark--1: #2d3439;
