@@ -1,8 +1,18 @@
+@use '../../sass/abstracts/mixins' as *;
+
 .product {
   margin: 2.5rem;
   padding: 2.5rem 5rem;
   background-color: var(--color-dark--1);
   height: calc(100vh - 5rem);
+
+  @include respond(tab-port) {
+    margin: 2rem;
+  }
+
+  @include respond(phone) {
+    margin: 1rem;
+  }
 }
 
 .product section {
@@ -11,11 +21,21 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 7rem;
-  align-items: center;
+
+  @include respond(phone) {
+    gap: 12rem;
+    width: auto;
+    grid-template-columns: 1fr;
+  }
 }
 
 .product img {
   width: 100%;
+
+  @include respond(phone) {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 .product h2 {

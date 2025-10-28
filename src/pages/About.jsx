@@ -7,10 +7,6 @@ function About() {
         <div className={styles.product}>
             <PageNav />
             <section>
-                <img
-                    src={image}
-                    alt="about image"
-                />
                 <div>
                     <h2>About this project</h2>
                     <p>
@@ -20,6 +16,10 @@ function About() {
                         Application) concepts have been utilized.
                     </p>
                 </div>
+                <img
+                    src={image}
+                    alt="about image"
+                />
             </section>
         </div>
     );

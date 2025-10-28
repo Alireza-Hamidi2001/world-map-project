@@ -1,16 +1,19 @@
+@use './../../sass/abstracts/mixins' as *;
+
 .nav {
     font-family: "Edu";
     font-size: 1.4rem;
     letter-spacing: 1px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include flex-center(space-between, center);
 
     & ul {
         list-style: none;
-        display: flex;
-        align-items: center;
+        @include flex-center(null, center);
         gap: 4rem;
+
+        @include respond(phone) {
+            gap: 2rem;
+        }
 
         & li {
             list-style: none;
@@ -33,6 +36,10 @@
                 color: #fff;
                 padding: 0.8rem 2rem;
                 border-radius: 7px;
+
+                @include respond(phone) {
+                    padding: 0.8rem 2rem;
+                }
             }
 
             & a:global(.active) {

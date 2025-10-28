@@ -1,3 +1,9 @@
+@use './../../sass/abstracts/mixins' as *;
+
 .logo {
   height: 5.2rem;
+
+  @include respond(phone) {
+    height: 4rem;
+  }
 }
