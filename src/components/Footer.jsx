@@ -8,7 +8,7 @@ function Footer() {
                 <i>
                     <b>Alireza Hamidi</b>
                 </i>{" "}
-                base a design of{" "}
+                base on a design of{" "}
                 <i>
                     <b>Jonas Schmedtmann</b>
                 </i>
